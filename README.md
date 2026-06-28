@@ -4,10 +4,17 @@
 
 ## Setup
 
-Install dependencies:
+Install the CLI:
+
+```sh
+pnpm add -g @cmichel/healthlog
+```
+
+For local development:
 
 ```sh
 pnpm install
+pnpm build
 ```
 
 Configure Garmin:
